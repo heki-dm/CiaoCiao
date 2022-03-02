@@ -1,0 +1,114 @@
+body {
+    background-color: #e3fff7;
+}
+
+#start_rule {
+    font-size: 1.1em;
+}
+
+#trout {
+    width: max-content;
+    display: inline;
+    float: none;
+}
+
+.trout,
+.troutStart,
+.troutGoal {
+    border: solid 1px;
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.trout_player {
+    height: 4em;
+    width: 4em;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+#choice {
+    margin-top: 1em;
+}
+
+.button {
+    margin-left: 0.5em;
+}
+
+.button,
+.dice {
+    overflow: hidden;
+}
+
+#turn {
+    margin: 1em auto;
+}
+
+#dice {
+    font-size: 5em;
+    border: solid 1px darkgray;
+    border-radius: 0.05em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/* .player {
+    float: left;
+} */
+
+table {
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+.player_icon>img {
+    width: 10em;
+    height: 10em;
+}
+
+#player_table {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* .board {
+    margin: 10px
+}
+
+.board > .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.board > .row > .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px; height: 100px;
+
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+.board > .row > .cell:hover{
+    background-color: lightgray;
+}
+
+.cell p {
+    font-size: 72px;
+}
+
+h2 {
+    margin: 10px 5px 5px 10px;
+}
+
+section {
+    margin: 10px;
+} */
